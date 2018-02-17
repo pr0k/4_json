@@ -1,6 +1,6 @@
 # Prettify JSON
 
-The script converts a text file in JSON format and displays it on the command line in a pretty form
+The script converts a text file in JSON format and displays it on the command line in a pretty form of JSON
 
 # Quickstart
 
