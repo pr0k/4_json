@@ -5,8 +5,8 @@ def load_data(filepath):
     with open(filepath, 'r') as json_data_file:
         return json.load(json_data_file)
 
-def prettify_json(python_data_file):
-    return json.dumps(python_data_file, ensure_ascii=False, indent=4, sort_keys=True)
+def prettify_json(python_obj):
+    return json.dumps(python_obj, ensure_ascii=False, indent=4, sort_keys=True)
 
 if __name__ == '__main__':
     try:
